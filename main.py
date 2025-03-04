@@ -58,7 +58,7 @@ def main():
 
     # Перевірка наявності вихідної папки
     if not source_folder.exists() or not source_folder.is_dir():
-        logger.error(f"Вихідна папка '{source_folder}' не існує або не є директорією.")
+        logger.error(f"Вихідна папка '{source_folder}' не існує!")
         return
 
     # Перевірка наявності або створення цільової папки
